@@ -149,10 +149,6 @@ def main(args):
 
 if __name__  == "__main__":
     parser = ArgumentParser()
-    parser.add_argument("--gamma",
-                        type=float,
-                        default=2.,
-                        help="The gamma parameter of focal loss.")
     parser.add_argument("--lr",
                         type=float,
                         default=.01,
